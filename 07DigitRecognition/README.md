@@ -60,7 +60,7 @@ The model was trained for 10 epochs, meaning it processed the entire training da
 ### Results
 The model's performance was evaluated on the 10,000 unseen images in the test set.
 
-Test Accuracy: The model achieved a final accuracy of ~97.8%, demonstrating its effectiveness and ability to generalize to new data.
+Test Accuracy: The model achieved a final accuracy of ~98%, demonstrating its effectiveness and ability to generalize to new data.
 
 ### Technologies Used
 Python
