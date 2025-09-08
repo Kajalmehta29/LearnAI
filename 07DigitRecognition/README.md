@@ -1,7 +1,7 @@
 ## Handwritten Digit Recognition using a Neural Network ✍️
 This project is an introduction to deep learning and computer vision, demonstrating how to build a neural network to classify handwritten digits from the famous MNIST dataset. The model is built using TensorFlow and its high-level Keras API.
 
-The final trained model successfully achieves an accuracy of over 97% on the unseen test data.
+The final trained model successfully achieves an accuracy of over 98% on the unseen test data.
 
 ### Overview
 The goal of this project is to create a model that can correctly identify a digit (0-9) from a 28x28 pixel grayscale image. This is a classic "Hello, World!" problem in the field of deep learning, providing a practical foundation for understanding the core concepts of neural networks, including layers, activation functions, loss functions, and optimizers.
@@ -73,33 +73,27 @@ Matplotlib for visualizing the data
 
 Jupyter Notebook for development
 
-### How to Run
-Clone the repository:
-
-Bash
-
+## How to Run
+### Clone the repository:
 git clone https://github.com/Kajalmehta29/LearnAI.git
+
 cd LearnAI/07DigitRecognition
-Create and activate a virtual environment:
+
+###Create and activate a virtual environment:
 It is recommended to use a compatible Python version (e.g., 3.11) for TensorFlow on macOS.
 
-Bash
-
-# Create the environment with a specific Python version
+### Create the environment with a specific Python version
 python3.11 -m venv myenv
 
-# Activate the environment
+### Activate the environment
+
 source myenv/bin/activate
-Install the required libraries:
-
-Bash
-
+### Install the required libraries:
 pip install --upgrade pip
 pip install tensorflow-macos numpy matplotlib jupyter
 pip install tensorflow-metal
-Launch Jupyter Notebook and run the code:
 
-Bash
-
+### Launch Jupyter Notebook and run the code:
 jupyter notebook
+
 Open the .ipynb file and run the cells sequentially to train and evaluate the model.
