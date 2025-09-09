@@ -60,7 +60,7 @@ The model was trained for 10 epochs, meaning it processed the entire training da
 ### Results
 The model's performance was evaluated on the 10,000 unseen images in the test set.
 
-Test Accuracy: The model achieved a final accuracy of ~97.8%, demonstrating its effectiveness and ability to generalize to new data.
+Test Accuracy: The model achieved a final accuracy of ~98%, demonstrating its effectiveness and ability to generalize to new data.
 
 ### Technologies Used
 Python
@@ -79,7 +79,7 @@ git clone https://github.com/Kajalmehta29/LearnAI.git
 
 cd LearnAI/07DigitRecognition
 
-###Create and activate a virtual environment:
+### Create and activate a virtual environment:
 It is recommended to use a compatible Python version (e.g., 3.11) for TensorFlow on macOS.
 
 ### Create the environment with a specific Python version
@@ -90,10 +90,13 @@ python3.11 -m venv myenv
 source myenv/bin/activate
 ### Install the required libraries:
 pip install --upgrade pip
+
 pip install tensorflow-macos numpy matplotlib jupyter
+
 pip install tensorflow-metal
 
 ### Launch Jupyter Notebook and run the code:
+
 jupyter notebook
 
 Open the .ipynb file and run the cells sequentially to train and evaluate the model.
